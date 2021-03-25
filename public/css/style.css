@@ -1,0 +1,77 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: gray 0px 5px 15px 15px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo1 {
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.logogauche img {
+    width: 200px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.logodroite {
+    display: flex;
+}
+
+.logo1 > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.pack {
+    display: flex;
+    height: 150px;
+    background-color: midnightblue;
+}
+
+.pack1 {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.text1 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.eclosion {
+    display: flex;
+    height: 250px;
+}
+
+.eclosion1 {
+    height: 120px;
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+.eclosion2 {
+    background-color: blue;
+    padding: 10px;
+}
